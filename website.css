@@ -1,31 +1,50 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+    background-image: url(background.png);
 }
 
 .navbar-default {
     box-shadow: 0 10px 10px -10px rgba(0,0,0,.2);
-    
+    background: rgba(255, 255, 255, 0.3) !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
     
   }
 .navbar a{
-    font-size: 1.2em;
-    
+    font-size: 1.4em;
 }
+
+
+
+
 
 
 .container-tp{
-    padding-top: 20px;
-    padding-bottom: 30px;
-    
-    background: rgba(228, 216, 216, 0.76) !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left : 10px;
+    padding-right : 10px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.3) !important;
     background-clip: border-box !important;
+ 
 
 }
+
+
 
 .spacing-ct{
     padding-top: 30px;
     padding-bottom: 30px;
+
+}
+
+.spacing-ctsmall{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 }
 
 .container-bg{
