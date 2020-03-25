@@ -26,6 +26,26 @@ body {
   text-align: center;
 }
 
+.carousel .item{
+    height: 600px;
+    width: 800px;
+  }
+  
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 800px;
+}
+
+.carousel-caption{
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+}
+
+
 
 .active a{
     border-radius: 15px;
@@ -59,13 +79,16 @@ body {
 
 .container-cs{
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 600px;
     padding-left : 40px;
     padding-right : 40px;
     border-radius: 15px;
-    background: rgba(255, 255, 255, 0.3) !important;
+    height: 600px;
+    width: 800px;
+    /* background: rgba(255, 255, 255, 0.3) !important; */
     background-clip: border-box !important;
 }
+
 
 
 
