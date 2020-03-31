@@ -2,7 +2,9 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
     background-image: url(background.png);
+    background-size: cover;
     padding-bottom: 150px;
+    font-size: medium;
 }
 
 .navbar-default {
@@ -23,10 +25,14 @@ body {
     vertical-align: middle;
 }
 .navbar-default {
-  text-align: center;
+    text-align: center;
 }
 
-.carousel .item{
+ul {
+    list-style-type: circle;
+  }
+
+/* .carousel .item{
     height: 600px;
     width: 800px;
   }
@@ -37,13 +43,15 @@ body {
     left: 0;
     height: 600px;
     width: 800px;
-}
+} */
 
-.carousel-caption{
+/* .carousel-caption{
     position: fixed;
     bottom: 50px;
-    left: 0;
-}
+    left: 10px;
+    width: 700px;
+    
+} */
 
 
 
@@ -70,16 +78,44 @@ body {
 .container-tp{
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left : 10px;
-    padding-right : 10px;
+    padding-left : 20px;
+    padding-right : 20px;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.3) !important;
     background-clip: border-box !important;
+    
 }
+
+
+.caption{
+    font-size: small;
+}
+
+
+
+
+.container-pt{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left : 20px;
+    padding-right : 20px;
+    border-radius: 15px;
+    max-width: 300px;
+    min-height: 150px;
+    box-shadow: 0 10px 10px -10px rgba(0,0,0,.4);
+    background: rgba(255, 255, 255, 0.5)!important;
+    background-clip: border-box !important;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
 
 .container-cs{
     padding-top: 40px;
-    padding-bottom: 600px;
+    /* padding-bottom: 600px; */
     padding-left : 40px;
     padding-right : 40px;
     border-radius: 15px;
@@ -93,20 +129,20 @@ body {
 
 
 .spacing-ct{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
 }
 
 .spacing-ctsmall{
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 
 }
 
 .container-bg{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 50px;
 }
 

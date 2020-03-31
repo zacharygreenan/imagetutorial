@@ -10,51 +10,116 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">My Dissertation</a>
-      </div> -->
+  <div class="container-fluid text-center">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li><a href="index.html">Home</a></li>
-        <li class="active"><a href="proboverview.html">Problem Overview</a></li>
+        <li class = "active"><a href="proboverview.html">Problem Overview</a></li>
         <li><a href="development.html">Development</a></li>
         <li><a href="finalproduct.html">Final Product</a></li>
         <li><a href="evaluation.html">Evaluation</a></li>
       </ul>
-    </div>
-  </nav>
+  </div>
+  </div>
+</nav>
+
 <body>
 
-
+<!-- <div class = container-pt>
+  <div class = row>
+    <h3>Test</h3>
+  </div>
+  <div class = row>
+    <p>Test</p>
+  </div>
+</div> -->
 
 <div class = "container-bg">
 
-  
-<div class = "container-tp">
-  <div class="row">
-    <div class = "col-md-6">
-      <h2>What's the problem?</h2>
-    </div>
-  
-    <div class="col-md-6"
-      <ul>
-          <li>Sharing photos online is now easier than ever</li>
-          <li>Social media offers an easy insight into other people's lives, leading to an increased pressure to be 'perfect'</li>
-          <li>Most devices are now capable of complex photo edits</li>
-          <li>The amount of photo editing information on the internet is overwhelming </li>
-      </ul>
-    </div>
-</div>
-<div class = "spacing-ct"></div>
 
-<h4 align = center>See below for some typical examples of bad editing</h4>
-<div class = "spacing-ctsmall"></div>
-</div>
+  <!-- <div class = container-tp>
+    <div class = "row">
+        <h2>What's the Problem?</h2>
+        <div class = "spacing-ctsmall"></div>
+      <div class = row>
+        
+        <p>The problem is comprised of multiple factors:</p>
+        <ul>
+            <li>Sharing photos online is now easier than ever</li>
+            <li>Social media offers an easy insight into other people's lives, leading to an increased pressure to be 'perfect'</li>
+            <li>Most devices are now capable of complex photo edits</li>
+            <li>The amount of photo editing information on the internet is overwhelming </li>
+        </ul>
+        <div class = "spacing-ct"></div>
+        <h4 align = center>See below for some typical examples of bad editing</h4>
+        
+      </div>
+    </div>
+  </div> -->
+
+  
+
+  <div class = container-tp>
+    <div class = "row">
+        <h2>What's the Problem?</h2>
+        <div class = "spacing-ctsmall"></div>
+        <p>The problem itself has four key components: </p>
+        <div class = "spacing-ctsmall"></div>
+      <div class = row>
+
+       <div class = col-md-3>
+        <div class = container-pt>
+          
+          <div class = row>
+            <h4 align = center>Sharing photos online is now easier than ever</h4>
+          </div>
+        </div>
+       </div>
+
+
+       <div class = col-md-3>
+        <div class = container-pt>
+          <div class = row>
+            <h4 align = center>Social media offers an easy insight into other people's lives, leading to an increased pressure to be 'perfect'</h4>
+          </div> 
+        </div>
+       </div>
+
+       <div class = col-md-3>
+        <div class = container-pt>
+          <div class = row>
+            <h4 align = center>Most devices are now capable of complex photo edits</h4>
+          </div> 
+        </div>
+       </div>
+
+       <div class = col-md-3>
+        <div class = "container-pt">
+          <div class = row>
+            <h4 align = center>The amount of photo editing information on the internet is overwhelming</h4>
+          </div> 
+        </div>
+       </div>
+
+       
+      </div>
+    </div>
+  </div>
+
 
 <div class = "spacing-ct"></div>
 
 <div class = container-tp align = center>
-<div class = container-cs>
+<!-- <div class = container-cs> -->
+  <div class="embed-responsive embed-responsive-4by3">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -66,47 +131,30 @@
 
     <div class="carousel-inner">
       <div class="item active">
-        <img src="ue.png" style>
+        <img src="ue.png" class = "img-responsive img-rounded">
         <div class="carousel-caption">
           <h3>Over Exposed Outdoor Photography</h3>
-          <p>Harsh outdoor lighting conditions usually result in pictures with little visible detail </p>
+          <p>Harsh outdoor lighting conditions reduces detail</p>
         </div>
       </div>
   
       <div class="item">
-        <img src="os.png">
+        <img src="os.png" class = "img-responsive img-rounded">
         <div class="carousel-caption">
-          <h3>Over Saturated Street Photography</h3>
-          <p>In an attempt to compensate for the washed-out colours produced by some camera sensors, people commonly increase saturation to the point of colour shift</p>
+          <h3>Incorrect Saturation</h3>
+          <p>People commonly increase saturation to the point of colour shift</p>
         </div>
       </div>
 
       <div class="item">
-        <img src="bc.png">
+        <img src="bc.png" class = "img-responsive img-rounded">
         <div class="carousel-caption">
           <h3>Bad Cropping of Landscape Shots</h3>
-          <p>Vital details are usually omitted from landscape shots when their size is adjusted</p>
+          <p>Bad cropping omits vital image elements</p>
         </div>
       </div>
-  
-      <!-- <div class="item">
-        <img src="osm.png">
-        <div class="carousel-caption">
-          <h3>Over Smoothed Portraits</h3>
-          <p>In an attempt to produce a 'perfect' portrait, people often end up looking unnatural.</p>
-        </div>
-      </div> -->
-    </div>
-  
- 
-    <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a> -->
+
+</div>
   </div>
 </div>
 </div>
@@ -114,42 +162,53 @@
 <div class = "spacing-ct"></div>
 
 
-<div class = "container-tp">
-  <div class="row">
-    <div class = "col-md-6">
+<div class = container-tp>
+  <div class = "row">
       <h2>Why is this important?</h2>
+      <div class = "spacing-ctsmall"></div>
+    <div class = row>
+      <h4>Online Communication</h4>
+      <p>As the majority of online communication is now done via photos (e.g. Instagram, Facebook), effectively connoting something via an image has never been more important</p>
+      <div class = "spacing-ctsmall"></div>
+      <h4>Intimidating tutorials</h4>
+      <p>The majority of photography tutorials use jargon and technical language, which is intimidating for beginners and often puts many new users off.</p>
+      <div class = "spacing-ctsmall"></div>
+      <h4>Tutorials are outdated </h4>
+      <p>Tutorials are often in inconvenient or outdated formats, often requiring the user to lug around a laptop or book</p>
+      <div class = "spacing-ctsmall"></div>
+      <h4>An area not tapped in to</h4>
+      <p>More people than ever have access to mobile devices capable of showing rich information and performing complex edits, yet there are very few tutorial applications taking advantage of this</p>
+   
     </div>
-  
-    <div class="col-md-6"
-      <ul>
-        <li>The majority of communication done online is now done via photos (e.g. Instagram, Facebook)</li>
-        <li>Accessing only photography tutorials specific to beginners is difficult, meaning that the average user feels intimidated by the topic</li>
-        <li>Tutorials are often in inconvenient or outdated formats unsuitable for consumption on a mobile device</li>
-      </ul>
-    </div>
-</div>
+  </div>
 </div>
 
 <div class = "spacing-ct"></div>
 
-<div class = "container-tp">
-  <div class="row">
-    <div class = "col-md-6">
-      <h2>Why me?</h2>
-    </div>
-  
-    <div class="col-md-6"
-      <ul>
+
+
+<div class = container-tp>
+  <div class = "row">
+      <h2>Why Me?</h2>
+      <div class = "spacing-ctsmall"></div>
+    <div class = row>
+      <p>There are many reasons why I decided to tackle this project, however here are my five key reasons for doing so:</p>
+      <ol>
         <li>Photography is a great passion of mine and has always been one of my main hobbies</li>
         <li>I enjoy helping others and teaching new things</li>
-        <li>I'd like to learn iOS/MacOS app development and apply it to a practical, real-world scenario</li>
-        <li>I enjoyed the 'Image Processing' L2 submodule </li>
-      </ul>
+        <li>I am actively interested in finding new ways to harness technology in education, and so wanted to undertake a project based on this principle. </li>
+        <li>I wanted to learn iOS/MacOS app development and apply it to a practical, real-world scenario</li>
+        <li>I found the 'Image Processing' L2 submodule very interesting, so I wanted to further develop the skills gained from this submodule </li>
+      </ol>
     </div>
-</div>
+  </div>
 </div>
 
+
 </div>
+
+
+
 
 </body>
 </html>

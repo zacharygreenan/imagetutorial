@@ -12,108 +12,214 @@
 
 
 <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">My Dissertation</a>
-      </div> -->
+  <div class="container-fluid text-center">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="proboverview.html">Problem Overview</a></li>
-        <li class="active"><a href="development.html">Development</a></li>
+        <li class="active" ><a href="development.html">Development</a></li>
         <li><a href="finalproduct.html">Final Product</a></li>
         <li><a href="evaluation.html">Evaluation</a></li>
       </ul>
-    </div>
-  </nav>
+  </div>
+  </div>
+</nav>
+
 <body>
 
 
 
 
 <div class = "container-bg">
-  <div class = "container-tp">
-    <div class="row">
-      <div class = "col-md-6">
+
+  <!-- <div class = container-tp>
+    <div class = "row">
         <h2>Project Goals</h2>
+        <div class = "spacing-ctsmall"></div>
+      <div class = row>
+        <ul>
+          <li>Produce an intuitive application to allow users to access information surrounding photo editing</li>
+          <li>Provide advice on a range of photo editing topics</li>
+          <li>Allow users to practice making a range of edits without having to leave the tutorial</li>
+          <li>Provide an application that works effectively on mobile devices, and incorporates a range of modern features</li>
+      </ul>
       </div>
-    
-      <div class="col-md-6"
-      <ul>
-        <li>Produce an intuitive application to allow users to access information surrounding photo editing</li>
-        <li>Provide advice on a range of photo editing topics</li>
-        <li>Allow users to practice making a range of edits without having to leave the tutorial</li>
-        <li>Provide an application that works effectively on mobile devices, and incorporates a range of modern features</li>
-    </ul>
+    </div>
+  </div> -->
+
+
+  <div class = container-tp>
+    <div class = "row">
+        <h2>Project Goals</h2>
+        <div class = "spacing-ctsmall"></div>
+      <div class = row>
+
+       <div class = col-md-3>
+        <div class = container-pt>
+          
+          <div class = row>
+            <h4 align = center>To produce an intuitive application to allow users to access information surrounding photo editing</h4>
+          </div>
+        </div>
+       </div>
+
+
+       <div class = col-md-3>
+        <div class = container-pt>
+          <div class = row>
+            <h4 align = center>To provide advice on a range of photo editing topics</h4>
+          </div> 
+        </div>
+       </div>
+
+       <div class = col-md-3>
+        <div class = container-pt>
+          <div class = row>
+            <h4 align = center>To allow users to practice making a range of edits without having to leave the tutorial</h4>
+          </div> 
+        </div>
+       </div>
+
+       <div class = col-md-3>
+        <div class = "container-pt">
+          <div class = row>
+            <h4 align = center>To provide a mobile-first application that incorporates a range of modern features</h4>
+          </div> 
+        </div>
+       </div>
+
+       
       </div>
+    </div>
   </div>
-  </div>
+
+
+
 
   <div class = "spacing-ct"></div>
 
 
-  <div class = "container-tp">
-    <div class="row">
-      <div class = "col-md-6">
+
+  <div class = container-tp>
+    <div class = "row">
         <h2>Project Deliverables</h2>
+        <div class = "spacing-ctsmall"></div>
+      <div class = row>
+      <p>Based on the above goals, I then identified a list of features that my application must have in order to successfully meet these key aims: </p>
+      <div class = "spacing-ctsmall"></div>
+
+      <h4>Application Requirements</h4>
+      <p><ul>
+        <li>Provide an intuitive user interface</li>
+        <li>Produce a Swift application that's compatible with the current range of iOS devices</li>
+        <li>Base my user interface on the SwiftUI framework</li>
+        <li>Ensure my user interface integrates well with the OS</li>
+       </ul></p>
+      <div class = "spacing-ctsmall"></div>
+      <h4>Essential Image Processing Features</h4>
+      <ul>
+        <li>Exposure</li>
+        <li>Contrast</li>
+        <li>Cropping</li>
+        <li>Greyscale</li>
+        <li>Brightness</li>
+      </ul>
+      <div class = "spacing-ctsmall"></div>
+      <h4>Advanced Image Processing Features</h4>
+      <ul>
+        <li>Noise Reduction</li>
+        <li>Spot Healing</li>
+        <li>Graduated Filter</li>
+        <li>Saturation</li>
+        <li>Haze Reduction</li>
+    </ul>  
+      <div class = "spacing-ctsmall"></div>
       </div>
-    
-      <div class="col-md-6"
-      <p>As part of the planning process, I formulated a list of deliverables for my project:</p>
-            <ul>
-              <li>Application</li>
-              <ul>
-                  <li>Provide an intuitive user interface</li>
-                  <li>Produce an application in Swift that's compatible with the current range of iOS devices</li>
-                  <li>Base my user interface on the SwiftUI framework</li>
-                  <li>Ensure my user interface integrates well with the OS</li>
-                  <li>Ensure my user interface works effectively on a range of devices</li>
-              </ul>
-              <li>Adjustments</li>
-              <ul>
-                  <li>Implement a range of image adjustments using the CIKernel language</li>
-                  <li>Implement basic adjustments</li>
-                  <ul>
-                      <li>Exposure</li>
-                      <li>Contrast</li>
-                      <li>Cropping</li>
-                      <li>Greyscale</li>
-                      <li>Brightness</li>
-                  </ul>
-                  <li>Implement advanced adjustments</li>
-                  <ul>
-                      <li>Noise Reduction</li>
-                      <li>Spot Healing</li>
-                      <li>Graduated Filter</li>
-                      <li>Saturation</li>
-                      <li>Haze Reduction</li>
-                  </ul>                     
-              </ul>
+    </div>
+  </div>
+
  
-      </div>
-  </div>
-  </div>
 
     <div class = "spacing-ct"></div>
 
-    <div class = "container-tp">
-      <div class="row">
-        <div class = "col-md-6">
+
+
+    <div class = container-tp>
+      <div class = "row">
           <h2>Planning</h2>
+          <div class = "spacing-ctsmall"></div>
+        <div class = row>
+          <p>As part of the planning process, I:</p>
+          <ul>
+              <li>Produced a formal project plan</li>
+              <li>Undertook a literature survey to research the state-of-the-art for various techniques</li>
+              <li>Produced a project schedule in the form of a Gantt chart</li>
+              <li>Produced initial drafts of the algorithms</li>
+              <li>Produced a series of iterative user interface drafts:</li>
+          </ul>
+
+          <div class = "spacing-ctsmall"></div>
+
+          <div class = col-md-4>
+            <div class = container-pt>
+              
+              <div class = row>
+                <h4 align = center ><img src="1.png" alt="Me" height = 382 width = 382 class = "img-responsive img-rounded"></h4>
+                <p>This draft introduces the gamification elements in the application, as well featuring a heavily text-based home screen and tutorial screen featuring multiple information panes.</p>
+              </div>
+            </div>
+           </div>
+
+
+           <div class = col-md-4>
+            <div class = container-pt>
+              
+              <div class = row>
+                <h4 align = center><img src="2.png" alt="Me" height = 382 width = 382 class = "img-responsive img-rounded"></h4>
+                <p>The homescreen was changed to a more graphics-based layout, the tutorial interface divided into separate content and practice areas, and user profiling capability added.</p>
+              </div>
+            </div>
+           </div>
+
+           <div class = col-md-4>
+            <div class = container-pt>
+              
+              <div class = row>
+                <h4 align = center><img src="3.png" alt="Me" height = 382 width = 382 class = "img-responsive img-rounded"></h4>
+                <p>The tutorial area now features interactive elements integrated with the teaching content, as well as a redesigned UI that better adheres to the iOS design language.</p>
+              </div>
+            </div>
+           </div>
+
+
         </div>
-      
-        <div class="col-md-6"
-        <p>As part of the planning process, I:</p>
-        <ul>
-            <li>Produced a formal project plan</li>
-            <li>Undertook a literature survey to research the state-of-the-art for various techniques</li>
-            <li>Performed a feasibility analysis with my supervisor</li>
-            <li>Produced a project schedule in the form of a Gantt chart</li>
-            <li>Produced initial drafts of the algorithms in Python/Pseuducode</li>
-            <li>Produced a series of user interface drafts</li>
-        </ul>
+      </div>
+    </div>
+
+
+    <div class = "spacing-ct"></div>
+
+
+    <div class = container-tp>
+      <div class = "row">
+          <h2>Development</h2>
+          <div class = "spacing-ctsmall"></div>
+        <div class = row>
+          <p>As I'd never coded in Swift or CIKernel before, I first began by learning the basics of both languages and identifying which areas I'd need to be proficient in to complete the project successfully. Once I was comfortable in using both, I began to build my implementation and gradually add the features specified in the plan.</p>
+          <p>During development, I met with my supervisor each week to review progress and identify what I should do next. These meetings also allowed me to get opinions on new ideas I had for the project during development, such as adding cloud synchronisation. I completed development as per my development schedule, with all of the pre-determined abilities present as well as some new ones added along the way.</p>
+
         </div>
+      </div>
     </div>
-    </div>
+ 
 
     </div>
 
